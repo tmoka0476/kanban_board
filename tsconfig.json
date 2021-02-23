@@ -8,7 +8,9 @@
         "moduleResolution": "Node",
         "incremental": true,
         "outDir": "./.ts-cache",
-        "strictNullChecks": true
+        "strictNullChecks": true,
+        "allowSyntheticDefaultImports": true,
+        "jsx":"react",
     },
     "include": ["./src/**/*"]
 }
