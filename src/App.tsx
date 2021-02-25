@@ -1,7 +1,7 @@
-import React from 'react'
-import styled from 'styled-components'
-import { Header as _Header } from './Header'
-import { Column } from './Column'
+import React from "react"
+import styled from "styled-components"
+import { Header as _Header } from "./Header"
+import { Column } from "./Column"
 
 export function App() {
   return (
@@ -13,22 +13,22 @@ export function App() {
           <Column
             title="TODO"
             cards={[
-              { id: 'a', text: '朝食をとる🍞' },
-              { id: 'b', text: 'SNSをチェックする🐦' },
-              { id: 'c', text: '布団に入る (:3[___]' },
+              { id: "a", text: "朝食をとる🍞" },
+              { id: "b", text: "SNSをチェックする🐦" },
+              { id: "c", text: "布団に入る (:3[___]" },
             ]}
           />
           <Column
             title="Doing"
             cards={[
-              { id: 'd', text: '顔を洗う👐' },
-              { id: 'e', text: '歯を磨く🦷' },
+              { id: "d", text: "顔を洗う👐" },
+              { id: "e", text: "歯を磨く🦷" },
             ]}
           />
           <Column title="Waiting" cards={[]} />
           <Column
             title="Done"
-            cards={[{ id: 'f', text: '布団から出る (:3っ)っ -=三[＿＿]' }]}
+            cards={[{ id: "f", text: "布団から出る (:3っ)っ -=三[＿＿]" }]}
           />
         </HorizontalScroll>
       </MainArea>
@@ -66,6 +66,6 @@ const HorizontalScroll = styled.div`
   ::after {
     display: block;
     flex: 0 0 16px;
-    content: '';
+    content: "";
   }
 `

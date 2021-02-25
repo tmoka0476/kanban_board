@@ -1,7 +1,7 @@
-import React from 'react'
-import styled from 'styled-components'
-import * as color from './color'
-import { CheckIcon as _CheckIcon, TrashIcon } from './icon'
+import React from "react"
+import styled from "styled-components"
+import * as color from "./color"
+import { CheckIcon as _CheckIcon, TrashIcon } from "./icon"
 
 export function Card({ text }: { text?: string }) {
   return (
@@ -43,7 +43,7 @@ const CheckIcon = styled(_CheckIcon)`
 `
 
 const DeleteButton = styled.button.attrs({
-  type: 'button',
+  type: "button",
   children: <TrashIcon />,
 })`
   position: absolute;
@@ -65,8 +65,8 @@ const Text = styled.span`
 `
 
 const Link = styled.a.attrs({
-  target: '_blank',
-  rel: 'noopener noreferrer',
+  target: "_blank",
+  rel: "noopener noreferrer",
 })`
   color: ${color.Blue};
   font-size: 14px;
