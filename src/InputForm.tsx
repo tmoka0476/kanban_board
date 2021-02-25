@@ -35,6 +35,11 @@ export function InputForm({
           handleConfirm()
         }}
       />
+
+      <ButtonRow>
+        <AddButton disabled={disabled} onClick={handleConfirm} />
+        <CancelButton onClick={onCancel} />
+      </ButtonRow>
     </Container>
   )
 }
