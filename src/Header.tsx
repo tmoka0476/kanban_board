@@ -14,7 +14,9 @@ export function Header({
 }) {
   return (
     <Container className={className}>
-      <Logo>Kanban board</Logo>
+      <a href="/">
+        <Logo>Kanban board</Logo>
+      </a>
 
       <CardFilter value={filterValue} onChange={onFilterChange} />
     </Container>
