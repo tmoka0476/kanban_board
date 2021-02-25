@@ -11,6 +11,7 @@
         "strictNullChecks": true,
         "allowSyntheticDefaultImports": true,
         "jsx":"react",
+        "skipLibCheck": true
     },
     "include": ["./src/**/*"]
 }
