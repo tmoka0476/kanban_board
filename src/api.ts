@@ -15,6 +15,11 @@ export type ReqAndRes = {
     }[]
   }
 
+  "GET /v1/cardsOrder": {
+    req: null
+    res: Record<string, string>
+  }
+
   "POST /v1/cards": {
     req: {
       id: string
