@@ -38,6 +38,13 @@ export type ReqAndRes = {
       text?: string
     }
   }
+
+  "DELETE /v1/cards": {
+    req: {
+      id: CardID
+    }
+    res: {}
+  }
 }
 
 export const Endpoint = process.env.API_ENDPOINT || "http://localhost:3000"

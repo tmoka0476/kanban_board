@@ -39,10 +39,6 @@
       "text": "SNSをチェックする🐦"
     },
     {
-      "id": "-wkumDeruhSx",
-      "text": "布団に入る\n(:3[___]"
-    },
-    {
       "id": "XNfzJPBi9-bg",
       "text": "NEW"
     },
@@ -53,19 +49,23 @@
     {
       "id": "ZFcXFwQGUfNr",
       "text": "テスト\n"
+    },
+    {
+      "id": "Wjk03oJX7gbY",
+      "text": "NEW TODO THING"
     }
   ],
   "cardsOrder": {
-    "cXrtw5n8-FsB": "-wkumDeruhSx",
+    "cXrtw5n8-FsB": "ZFcXFwQGUfNr",
     "w7DTqK1QQKTI": "TsXP5w9qLeM-",
     "bfrqTfEydU38": "bfrqTfEydU38",
     "dfwMbxZS0EmM": "7lR4Vd3EYixP",
     "7lR4Vd3EYixP": "dfwMbxZS0EmM",
     "TsXP5w9qLeM-": "rh022hj9zG58",
-    "rh022hj9zG58": "w7DTqK1QQKTI",
+    "rh022hj9zG58": "Wjk03oJX7gbY",
     "3NRSLMq49xvT": "cXrtw5n8-FsB",
     "ulnuLLt5TN93": "3NRSLMq49xvT",
-    "-wkumDeruhSx": "ZFcXFwQGUfNr",
-    "ZFcXFwQGUfNr": "ulnuLLt5TN93"
+    "ZFcXFwQGUfNr": "ulnuLLt5TN93",
+    "Wjk03oJX7gbY": "w7DTqK1QQKTI"
   }
 }
