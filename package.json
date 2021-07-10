@@ -7,7 +7,9 @@
         "format": "prettier --write \"./src/**/*.{ts,tsx}\"",
         "heroku-postbuild": "parcel build src/index.html",
         "precommit": "npm run format",
-        "lint": "eslint \"./src/**/*.{ts,tsx}\""
+        "lint": "eslint \"./src/**/*.{ts,tsx}\"",
+        "pretest": "tsc --project ./test/tsconfig.json --outDir ./test/dist",
+        "test": "node ./test/dist/test"
     },
     "husky": {
         "hooks": {
@@ -21,6 +23,7 @@
         "@types/styled-components": "^5.1.7",
         "@typescript-eslint/eslint-plugin": "^4.26.0",
         "@typescript-eslint/parser": "^4.26.0",
+        "baretest": "^2.0.0",
         "eslint": "^7.27.0",
         "eslint-plugin-react": "^7.24.0",
         "eslint-plugin-react-hooks": "^4.2.0",
